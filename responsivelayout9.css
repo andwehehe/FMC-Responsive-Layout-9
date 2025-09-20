@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Purple-300: hsl(276, 100%, 81%);
+  --Purple-600: hsl(276, 55%, 52%);
+  --Gray-500: hsl(270, 7%, 64%);
+  --Gray-300: hsl(206, 6%, 79%);
+  --Purple-950: hsl(271, 36%, 24%);
+
+  --Pink-500: hsl(293, 100%, 63%);
+  --Purple-500: hsl(264, 100%, 61%);
+
+  --White: hsl(0, 100%, 100%);
+  --Gray-100: hsl(270, 20%, 96%);
+  --Purple-950: hsl(271, 36%, 24%);
+  --Pink-400: hsl(289, 100%, 72%);
+  
+  --weight-400: 400;
+  --weight-500: 500;
+  --weight-700: 700;
+}
+
+@font-face {
+  font-family: 'Rubik', sans-serif;
+  src: url(assets/fonts/rubik-v31-latin-regular.woff2);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Rubik', sans-serif;
+  src: url(assets/fonts/rubik-v31-latin-500.woff2);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Rubik', sans-serif;
+  src: url(assets/fonts/rubik-v31-latin-700.woff2);
+  font-weight: 700;
+}
+
+body {
+
+}
+
+.upper__design {
+  width: 20vw;
+  height: 20vh;
+  background: linear-gradient(to top, var(--Purple-500), var(--Pink-500));
+}
